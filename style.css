@@ -8,8 +8,9 @@ h1{
 .Ant{
     color: firebrick;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -28,4 +29,44 @@ section{
 .banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+#image{
+    padding-bottom: 1000px;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+
+}
+.second-half{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 5px 5px 30px grey;
+    border-radius: 5px;
+    
+    
+}
+#second{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,red);
+    border-image-slice: 1;
+
+}
+#first{
+    border-left: 10px solid;
+    border-image: linear-gradient(red,yellow);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
